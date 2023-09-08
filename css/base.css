@@ -713,7 +713,8 @@ img {
   
 }
 .min_menu-wrap{
-  min-width: 50px;
+  min-width: 150px;
+  /* width: 10%; */
 }
 .min_menu-wrap.active .min_menu{
   transform: rotate(45deg);

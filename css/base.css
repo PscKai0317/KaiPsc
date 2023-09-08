@@ -1,3 +1,4 @@
+
 :root {
  /* 默认背景色 */
 --backColor:#fff;
@@ -726,7 +727,10 @@ img {
 
 
   /* 手机*/
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 720px) {
+    .col {
+      width: 40%;
+    }
     .col>span{
       visibility: hidden;
     }
